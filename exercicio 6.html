@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 6</title>
+    <style>
+        body {
+            background-color: gray;
+            font-family: Arial, sans-serif;
+        }
+
+        h2 {
+            color: blue;
+            text-align: left;
+            text-decoration: underline;
+            margin-left: 15px;
+            margin-bottom: 10px;
+        }
+
+        .container {
+            width: 300px;
+            margin: 10px;
+            padding: 8px;
+            background-color: beige;
+            border: 2px solid red;
+            float: left;
+            box-sizing: border-box;
+        }
+
+        ul {
+            list-style-image: url('estrela.png');
+            margin: 0;
+            padding-left: 25px;
+        }
+
+        ul ul {
+            list-style-image: url('check.png');
+            margin: 0;
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Lista de compras</h2>
+    <div class="container">
+        <ul>
+            <li>Café
+                <ul>
+                    <li>Em pó</li>
+                    <li>Solúvel</li>
+                </ul>
+            </li>
+            <li>Açúcar</li>
+            <li>Arroz</li>
+            <li>Leite</li>
+            <li>Massa
+                <ul>
+                    <li>Spaguetti</li>
+                    <li>Tagliatelle</li>
+                    <li>Vermicelli</li>
+                    <li>Maccheron</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
